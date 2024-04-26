@@ -1,17 +1,22 @@
 @font-face {
-  font-family: Calibri Bold;
-  src: url(@fonts/Calibri-Bold.woff2) format('woff2');
+  font-family: 'Circe Rounded Regular';
+  src: local('CirceRoundedWeb-Regular'), local('CirceRoundedWeb-Regular'),
+  url('@fonts/CirceRoundedWeb-Regular.ttf') format('ttf');
+  font-weight: 100;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: Calibri Italic; /* Гарнитура шрифта */
-  src: url(@fonts/Calibri-Italic.eot); /* Для IE5-8 */
-  src: local(pompadur), url(@fonts/Calibri-Italic.woff2); /* Для остальных браузеров */
+  font-family: 'Calibri Italic';
+  src: local('Calibri-Italic'),
+  url('@fonts/Calibri-Italic.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: Calibri Book; /* Гарнитура шрифта */
-  src: url(@fonts/Calibri.eot); /* Для IE5-8 */
-  src: local(pompadur), url(@fonts/Calibri.woff2); /* Для остальных браузеров */
+  font-family: 'Calibri Regular';
+  src: local('Calibri'),
+  url('@fonts/Calibri.woff2') format('woff2');
+  font-style: normal;
 }
+
 
