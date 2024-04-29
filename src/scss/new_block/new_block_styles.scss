@@ -1,106 +1,109 @@
 .sl_give_gifs {
-  h3 {
-    font-size: 5.3em;
-    text-align: center;
+  margin: 0 auto;
 
-  }
+  .sl_give_gifs-header {
+    height: 10vh;
 
-  .sl_give_gifs__top-title {
-    font-family: 'Calibri-Bold', serif;
-    margin: 0;
-  }
-
-  .sl_give_gifs__bottom-title {
-    font-family: "Calibri-BoldItalic", serif;
-    color: #ed1c24;
-  }
-
-  .sl_give_gif__content_block {
-    margin-top: 20px;
-    width: 100%;
-    height: 625px;
-    background-color: #ececec;
-    font-family: "Circe Rounded DM Web Extra Bold", serif;
-    .sl_give_gif__items {
-      padding-top: 25px;
-      margin: 0 auto;
-      width: 1280px;
-      display: flex;
-      justify-content: space-evenly;
-      flex-direction: row;
-      background-image: url("@images/9-2-confetti-png-picture.png");
-      background-repeat: round;
-      position: relative;
-      .sl_ball-left {
-        width: auto;
-        height: 891px;
-        position: absolute;
-        left: -232px;
-        top: -130px;
-        z-index: 9;
-      }
-
-      .sl_ball-right {
-        width: auto;
-        height: 891px;
-        position: absolute;
-        top: -130px;
-        right: -239px;
-      }
-
-      h4 {
-        margin: 0;
-      }
-
-      .sl_block_green {
-        background-color: #54b948;
-        position: relative;
-
-        .sl_bow_ribbon {
-          width: 458px;
-          height: auto;
-          position: absolute;
-          top: 40px;
-          rotate: 2deg;
-        }
-      }
-
-      .sl_block_red {
-        background-color: #ed1c24;
-      }
-
-      .sl_give_gifs_content {
-        width: 450px;
-        height: 720px;
-        border-radius: 40px;
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        -webkit-box-shadow: 10px 10px 3px -2px rgba(34, 60, 80, 0.2);
-        -moz-box-shadow: 10px 10px 3px -2px rgba(34, 60, 80, 0.2);
-        box-shadow: 10px 10px 3px -2px rgba(34, 60, 80, 0.2);
-
-          .sl_give_gifs_item-title_border {
-            margin-top: 1px;
-            background-color: white;
-            width: max-content;
-            height: 83px;
-            padding: 0 10px 10px;
-            border-radius: 0 0 30px 30px;
-            display: flex;
-            align-items: center;
-            -webkit-box-shadow: 10px 10px 8px 0 rgba(34, 60, 80, 0.2);
-            -moz-box-shadow: 10px 10px 8px 0 rgba(34, 60, 80, 0.2);
-            box-shadow: 10px 10px 8px 0 rgba(34, 60, 80, 0.2);
-          }
-      }
-
-      .sl_give_gifs_item-title {
-        padding-top: 4px;
-        color: #ed1c24;
-        font-size: 5.2em;
-      }
+    .sl_give_gifs_header_top-title {
+      font-family: 'Calibri-Bold', serif;
+      margin: 0;
     }
 
+    .sl_give_gifs__bottom-title {
+      font-family: "Calibri-BoldItalic", serif;
+      color: #ed1c24;
+    }
+
+    h3 {
+      font-size: clamp(16px, 2.5vw, 52.33px);
+      text-align: center;
+    }
   }
 }
+
+.sl_give_gifs {
+  .sl_give_gifs-main {
+    width: 100vw;
+    margin-top: 20px;
+    height: 570px;
+    background-color: #ececec;
+    display: flex;
+    justify-content: center;
+
+
+    .sl_give_gifs-main-items {
+      width: 1280px;
+      display: grid;
+      background-image: url("@images/9-2-confetti-png-picture.png");
+      background-repeat: round;
+      .sl_give_gifs__items {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 60px;
+          .sl_give_gifs__item {
+
+            .sl_give_gifs__block {
+              height: 110%;
+              width: 450px;
+              border-radius: 50px;
+              position: relative;
+              display: flex;
+              justify-content: center;
+
+              .sl_bow_ribbon {
+                width: 458px;
+                height: auto;
+                position: absolute;
+                top: 40px;
+                rotate: 2deg;
+              }
+
+              .sl_give_gifs_item-title_border {
+                text-align: center;
+                margin-top: 1px;
+                background-color: white;
+                width: max-content;
+                height: 83px;
+                padding: 0 10px 10px;
+                border-radius: 0 0 30px 30px;
+                display: flex;
+                align-items: center;
+                -webkit-box-shadow: 10px 10px 8px 0 rgba(34, 60, 80, 0.2);
+                -moz-box-shadow: 10px 10px 8px 0 rgba(34, 60, 80, 0.2);
+                box-shadow: 10px 10px 8px 0 rgba(34, 60, 80, 0.2);
+                .sl_give_gifs_item-title {
+                  padding-top: 4px;
+                  color: #ed1c24;
+                  font-size: 5.2em;
+                  font-family: "Circe Rounded DM Web Extra Bold", serif;
+                  margin: 0;
+                }
+              }
+            }
+            .sl_block-left {
+              background-color: #17ac51;
+              .sl_ball-left {
+                position: absolute;
+                top: -80px;
+                left: -370px;
+
+              }
+            }
+
+            .sl_block-right {
+              background-color: #ed1c24;
+              .sl_ball-right {
+                position: absolute;
+                top: -130px;
+                right: -380px;
+              }
+            }
+          }
+
+
+      }
+    }
+  }
+}
+
