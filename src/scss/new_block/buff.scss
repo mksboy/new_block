@@ -1,0 +1,175 @@
+.sl_give_gifs {
+  h3 {
+    font-size: clamp(16px, 4vw, 55.33px);
+    text-align: center;
+  }
+
+  .sl_give_gifs__top-title {
+    font-family: 'Calibri-Bold', serif;
+    margin: 0;
+  }
+
+  .sl_give_gifs__bottom-title {
+    font-family: "Calibri-BoldItalic", serif;
+    color: #ed1c24;
+  }
+
+  .sl_give_gif__content_block {
+    margin-top: 20px;
+    width: 100%;
+    height: 625px;
+    background-color: #ececec;
+    font-family: "Circe Rounded DM Web Extra Bold", serif;
+
+    .sl_give_gif__items {
+      padding-top: 25px;
+      margin: 0 auto;
+      width: 1280px;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: row;
+      background-image: url("@images/9-2-confetti-png-picture.png");
+      background-repeat: round;
+      position: relative;
+
+      .sl_ball-left {
+        width: auto;
+        height: 891px;
+        position: absolute;
+        left: -368px;
+        top: -130px;
+        z-index: 9;
+      }
+
+      .sl_ball-right {
+        width: auto;
+        height: 891px;
+        position: absolute;
+        top: -130px;
+        right: -380px;
+      }
+
+      h4 {
+        margin: 0;
+      }
+
+      .sl_block_green {
+        background-color: #17ac51;
+        position: relative;
+
+        .sl_bow_ribbon {
+          width: 458px;
+          height: auto;
+          position: absolute;
+          top: 40px;
+          rotate: 2deg;
+        }
+
+        .sl_give_gifs_item_content {
+          font-family: 'Calibri-Bold', serif;
+          z-index: 99;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .sl_new_block-button {
+            position: absolute;
+            bottom: 8px;
+            right: 11px;
+          }
+
+          .sl_give_gifs-text-ol {
+            font-family: 'Calibri', serif;
+            font-size: 2em;
+            color: white;
+
+            span {
+              color: yellow;
+            }
+
+            li {
+              padding-bottom: 20px;
+            }
+          }
+
+
+          .sl_give_gifs-text {
+            color: white;
+            padding-top: 17%;
+            font-size: 3.5em;
+            text-align: center;
+
+            p {
+              margin: 0;
+            }
+
+            span {
+              color: yellow;
+            }
+
+            .sl_give_gifs-text-all {
+              font-size: 1.2em;
+            }
+
+            .sl_give_gifs-text-we {
+              font-family: 'Calibri-Italic', serif;
+              font-size: 0.8em;
+            }
+          }
+
+          .sl_give_gifs_item_but {
+            font-size: 2.5em;
+            color: white;
+
+            h2 {
+              padding: 0 20px 0 20px;
+              border: 2px solid white;
+              border-radius: 30px;
+              width: max-content;
+              background-color: #54b848;
+            }
+          }
+        }
+      }
+
+      .sl_block_red {
+        background-color: #ed1c24;
+      }
+
+      .sl_give_gifs_content {
+        position: relative;
+        width: 450px;
+        height: 720px;
+        border-radius: 40px;
+        display: flex;
+        -webkit-box-shadow: 10px 10px 3px -2px rgba(34, 60, 80, 0.2);
+        -moz-box-shadow: 10px 10px 3px -2px rgba(34, 60, 80, 0.2);
+        box-shadow: 10px 10px 3px -2px rgba(34, 60, 80, 0.2);
+        flex-direction: column;
+        align-items: center;
+
+        .sl_give_gifs_item-title_border {
+          margin-top: 1px;
+          background-color: white;
+          width: max-content;
+          height: 83px;
+          padding: 0 10px 10px;
+          border-radius: 0 0 30px 30px;
+          display: flex;
+          align-items: center;
+          -webkit-box-shadow: 10px 10px 8px 0 rgba(34, 60, 80, 0.2);
+          -moz-box-shadow: 10px 10px 8px 0 rgba(34, 60, 80, 0.2);
+          box-shadow: 10px 10px 8px 0 rgba(34, 60, 80, 0.2);
+        }
+      }
+
+      .sl_give_gifs_item-title {
+        padding-top: 4px;
+        color: #ed1c24;
+        font-size: 5.2em;
+      }
+    }
+
+  }
+}

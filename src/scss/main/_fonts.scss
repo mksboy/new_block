@@ -4,11 +4,13 @@
   url('@fonts/Calibri-Italic.woff2') format('woff2');
 }
 
+// Calibri-BoldItalic
 @font-face {
-  font-family: 'Calibri Regular';
-  src: local('Calibri'),
+  font-family: 'Calibri';
+  src: url('@fonts/Calibri.eot');
+  src: url('@fonts/Calibri.woff') format('woff'),
+  url('@fonts/Calibri.ttf') format('truetype'),
   url('@fonts/Calibri.woff2') format('woff2');
-  font-style: normal;
 }
 // Calibri Bold
 @font-face {
@@ -26,6 +28,16 @@
   url('@fonts/Calibri-BoldItalic.ttf') format('truetype'),
   url('@fonts/Calibri-BoldItalic.woff2') format('woff2');
 }
+
+// Calibri-Italic
+@font-face {
+  font-family: 'Calibri-Italic';
+  src: url('@fonts/Calibri-Italic.eot');
+  src: url('@fonts/Calibri-Italic.woff') format('woff'),
+  url('@fonts/Calibri-Italic.ttf') format('truetype'),
+  url('@fonts/Calibri-Italic.woff2') format('woff2');
+}
+
 // Circe Rounded Web
 @font-face {
   font-family: 'Circe Rounded DM Web Extra Bold';
