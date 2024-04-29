@@ -44,12 +44,44 @@
           .sl_give_gifs__item {
 
             .sl_give_gifs__block {
-              height: 110%;
+              margin-top: 20px;
+              height: 107%;
               width: 450px;
               border-radius: 50px;
               position: relative;
               display: flex;
-              justify-content: center;
+              -webkit-box-shadow: 10px 10px 3px -2px rgba(34, 60, 80, 0.2);
+              -moz-box-shadow: 10px 10px 3px -2px rgba(34, 60, 80, 0.2);
+              box-shadow: 10px 10px 3px -2px rgba(34, 60, 80, 0.2);
+              flex-direction: column;
+              align-items: center;
+
+
+              .sl_give_gifs-text {
+                font-family: 'Calibri-Bold', serif;
+                z-index: 99;
+                color: white;
+                padding-top: 17%;
+                font-size: 3.5em;
+                text-align: center;
+                line-height: 30px;
+                p {
+                  margin: 0;
+                }
+
+                span {
+                  color: yellow;
+                }
+
+                .sl_give_gifs-text-all {
+                  font-size: 1.2em;
+                }
+
+                .sl_give_gifs-text-we {
+                  font-family: 'Calibri-Italic', serif;
+                  font-size: 0.8em;
+                }
+              }
 
               .sl_bow_ribbon {
                 width: 458px;
