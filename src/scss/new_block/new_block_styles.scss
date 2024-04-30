@@ -41,12 +41,29 @@
         background-repeat: round;
         .sl_give_gifs_item {
           width: 450px;
-          height: 105%;
+          height: 670px;
           border-radius: 40px;
           display: flex;
-          justify-content: center;
           margin-top: 20px;
+          position: relative;
+          -webkit-box-shadow: 10px 10px 3px -2px rgba(34, 60, 80, 0.2);
+          -moz-box-shadow: 10px 10px 3px -2px rgba(34, 60, 80, 0.2);
+          box-shadow: 10px 10px 3px -2px rgba(34, 60, 80, 0.2);
+          flex-direction: column;
+          align-items: center;
+
+          .sl_bow_ribbon {
+            position: absolute;
+            top: 0;
+            left: -5px;
+            height: auto;
+            width: 102%;
+            rotate: 3deg;
+            z-index: 99;
+          }
+
             .sl_give_gifs_item_title {
+              position: relative;
               background-color: white;
               height: 70px;
               width: max-content;
@@ -56,6 +73,10 @@
               display: flex;
               align-items: center;
               border-radius: 0 0 20px 20px;
+              -webkit-box-shadow: 10px 10px 8px 0 rgba(34, 60, 80, 0.2);
+              -moz-box-shadow: 10px 10px 8px 0 rgba(34, 60, 80, 0.2);
+              box-shadow: 10px 10px 8px 0 rgba(34, 60, 80, 0.2);
+
               h3 {
                 margin: 0 20px 0 20px;
               }
@@ -74,4 +95,42 @@
   .sl_give_gifs-red {
     background-color: #ed1c24;
   }
+
+  .sl_give_gifs-text {
+    font-family: 'Calibri-Bold', serif;
+    color: white;
+    padding-top: 17%;
+    font-size: 3.5em;
+    text-align: center;
+    z-index: 999;
+    p {
+      margin: 0;
+    }
+
+    span {
+      color: yellow;
+    }
+
+    .sl_give_gifs-text-all {
+      font-size: 1.2em;
+    }
+
+    .sl_give_gifs-text-we {
+      font-family: 'Calibri-Italic', serif;
+      font-size: 0.8em;
+    }
+  }
+
+  .sl_ball-left {
+    position: absolute;
+    top: -113px;
+    left: -368px;
+  }
+
+  .sl_ball-right {
+    position: absolute;
+    top: -87px;
+    right: -375px;
+  }
+
 }
