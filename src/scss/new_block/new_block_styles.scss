@@ -26,7 +26,7 @@
   .sl_give_gifs_block {
 
     .sl_give_gifs-background {
-      height: 80vh;
+      height: 60vh;
       width: 100%;
       display: flex;
       justify-content: center;
@@ -100,7 +100,7 @@
     font-family: 'Calibri-Bold', serif;
     color: white;
     padding-top: 17%;
-    font-size: 3.5em;
+    font-size: 3.7em;
     text-align: center;
     z-index: 999;
     p {
@@ -133,4 +133,43 @@
     right: -375px;
   }
 
+  .sl_give_gifs_item_but {
+    font-size: 2.5em;
+    color: white;
+    font-family: 'Calibri-Bold', serif;
+
+    h2 {
+      margin: 0;
+      padding: 0 20px 0 20px;
+      border: 2px solid white;
+      border-radius: 30px;
+      width: max-content;
+      background-color: #54b848;
+    }
+  }
+  .sl_give_gifs-text-ol {
+    font-family: 'Calibri', serif;
+    font-size: 2em;
+    color: white;
+
+    span {
+      color: yellow;
+    }
+
+    li {
+      padding-bottom: 20px;
+    }
+  }
+  .sl_new_block-button {
+    position: absolute;
+    bottom: 8px;
+    right: 11px;
+
+    .sl_bal-button-link {
+      font-size: 2em;
+      position: absolute;
+      bottom: 8px;
+      right: 11px;
+    }
+  }
 }
