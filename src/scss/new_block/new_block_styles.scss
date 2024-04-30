@@ -41,20 +41,23 @@
         background-repeat: round;
         .sl_give_gifs_item {
           width: 450px;
-          height: 85vh;
+          height: 80vh;
           border-radius: 40px;
           display: flex;
           justify-content: center;
           margin-top: 20px;
             .sl_give_gifs_item_title {
               background-color: white;
-              height: 50px;
+              height: 70px;
               width: max-content;
               color: #ed1c24;
-              font-family: 'Calibri-Bold', serif;
-              font-size: 2em;
+              font-family: "Circe Rounded DM Web Extra Bold", serif;
+              font-size: 3em;
+              display: flex;
+              align-items: center;
+              border-radius: 0 0 20px 20px;
               h3 {
-                margin: 0;
+                margin: 0 20px 0 20px;
               }
             }
         }
