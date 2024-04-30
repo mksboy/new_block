@@ -51,6 +51,7 @@
           box-shadow: 10px 10px 3px -2px rgba(34, 60, 80, 0.2);
           flex-direction: column;
           align-items: center;
+          justify-content: space-between;
 
           .sl_bow_ribbon {
             position: absolute;
@@ -168,8 +169,8 @@
     .sl_bal-button-link {
       font-size: 2em;
       position: absolute;
-      bottom: 8px;
-      right: 11px;
+      bottom: 32px;
+      right: 26px;
     }
   }
 }
